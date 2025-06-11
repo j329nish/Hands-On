@@ -15,7 +15,7 @@ React, Ruby, C#, Go言語, Rust, Kotlinの6つの言語について、以下のU
 | React | Webフロントエンド | 再利用性が高く、大規模開発に向いている | Link |
 | Ruby | バックエンド | Webアプリ開発が高速にできる | Link |
 | C# | バックエンド | Unityとの連携によりゲーム開発に強い | Link |
-| Go言語 | システム | 実行が速く、学習コストが低い | Link |
+| Go言語 | システム | 実行が速く、学習コストが低い | [Link](https://github.com/j329nish/Hands-On/tree/main/Go) |
 | Rust | システム | 安全性と速度を両立している | Link |
 | Kotlin | モバイル開発 | Javaと互換性があり、学習コストが低い | Link |
 
