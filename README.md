@@ -19,17 +19,4 @@ React, Ruby, C#, Go言語, Rust, Kotlinの6つの言語について、以下のU
 | Rust | システム | 安全性と速度を両立している | Link |
 | Kotlin | モバイル開発 | Javaと互換性があり、学習コストが低い | Link |
 
-## 3. 実行方法
-
-### Go言語
-```go
-// 直接実行
-go run sample.go
-
-// コンパイルして実行
-go build sample.go
-./sample
-```
-
-
 (最終更新 2025/6/11)
