@@ -1,35 +1,34 @@
-# Go言語
+# C++
 
 ## 例題（A-Conflict）[[URL](https://atcoder.jp/contests/abc409/tasks/abc409_a)]
 
-```go
-package main
-import "fmt"
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
 
-func main() {
-  var N int
-  var T, A string
-  Answer := "No"
-  fmt.Scan(&N)
-  fmt.Scan(&T)
-  fmt.Scan(&A)
+int main() {
+  int N;
+  string T, A, Answer = "No";
+  cin >> N;
+  cin >> T;
+  cin >> A;
   
-  for i:=0; i<N; i++ {
-    if T[i] == 'o' && T[i] == A[i] {
-      Answer = "Yes"
-      break
+  for (int i=0; i<N; i++) {
+    if (T[i] == 'o' and T[i] == A[i]) {
+      Answer = "Yes";
+      break;
     }
   }
-  fmt.Println(Answer)
+  cout << Answer << endl;
+  
+  return 0;
 }
 ```
 
 ## 実行方法
-```go
-// 直接実行
-go run sample.go
-
+```cpp
 // コンパイルして実行
-go build sample.go
+g++ sample.cpp -o sample
 ./sample
 ```
