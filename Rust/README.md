@@ -1,35 +1,25 @@
-# Go言語
+# Rust
 
 ## 例題（A-Conflict）[[URL](https://atcoder.jp/contests/abc409/tasks/abc409_a)]
 
-```go
-package main
-import "fmt"
+```rust
 
-func main() {
-  var N int
-  var T, A string
-  Answer := "No"
-  fmt.Scan(&N)
-  fmt.Scan(&T)
-  fmt.Scan(&A)
-  
-  for i:=0; i<N; i++ {
-    if T[i] == 'o' && T[i] == A[i] {
-      Answer = "Yes"
-      break
-    }
-  }
-  fmt.Println(Answer)
-}
 ```
 
 ## 実行方法
-```go
-// 直接実行
-go run sample.go
-
+```rust
 // コンパイルして実行
-go build sample.go
-./sample
+rustc main.rs
+./main
+
+// Cargoを作成
+cargo new sample --bin
+cd sample
+
+// Cargoで直接実行
+cargo run --release
+
+// Cargoでコンパイルして実行
+cargo build --release
+./target/debug/sample
 ```
